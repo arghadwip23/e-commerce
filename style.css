@@ -1,3 +1,37 @@
+/* this are 4he fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+
+/*bootstrap icon cdn link*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css");
+
+
 body {
     font-size: 15pt;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+section{
+  background: #fff;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+section .circle{
+  top: 30;
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  background: #DE0F0F;
+  clip-path: circle(70% at 10% 0);
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
 }
