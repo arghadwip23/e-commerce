@@ -1,6 +1,6 @@
 /* this are 4he fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
 
 /*bootstrap icon cdn link*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css");
@@ -39,10 +39,13 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 7px 15px;
   
 }
-header h3{
-  font-family:"Bungee Shade" ;
-  color: #000000;
+header h2{
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #FFFFFF;
+}
+header i{
+  font-size: 35px;
 }
