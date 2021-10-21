@@ -9,7 +9,6 @@
 
 body {
     font-size: 15pt;
-    background: url(media/bgpattern.svg);
 }
 *{
   margin: 0;
@@ -17,52 +16,48 @@ body {
   box-sizing: border-box;
 }
 
-
-section{
-  background: #FFFFFF00;
-  height: 90vh;
-  width: 100%;
-  position: relative;
-}
-section .circle{
-  top: 30;
-  position: absolute;
-  width: 100%;
-  height: 90vh;
-  background: url(media/world.svg);
-  clip-path: circle(70% at 45% 0);
-  background-size: contain;
-  
-  
-}
-header{
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #ffffff;
-  width: 100%;
+nav{
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 7px 15px;
+  justify-content: space-between;
+}
+nav img{
+  width: 150px;
+  height: 50px;
+}
+nav i{
+  font-size: 35px;
+  color: #101A83;
+}
+#navbar{
+  width: 100%;
+  height: 100vh;
+  background: #101A83;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
 }
-header h2{
-  font-family: 'UnifrakturMaguntia', cursive;
+ul{
+  display: block;
+  padding-top: 0;
+}
+ul li{
+  list-style: none;
+  color: #FFFFFF;
+  margin-bottom: 50px ;
+}
+ul li a {
+  text-decoration: none;
   color: #FFFFFF;
 }
-header i{
+
+#navbar i{
   font-size: 35px;
-}
-section .text-container{
+  color: #000;
   position: absolute;
-  top:80px;
-  color: #FFFFFF;
-  font-size: 1.5rem;
-  font-weight: bolder;
-  text-align: center;
-}
-section .text-container h1{
- color: white;
- font-family: 'Titan One', cursive;
+  top: 30px;
+  right: 10px;
 }

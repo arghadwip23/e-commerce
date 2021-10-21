@@ -1,5 +1,5 @@
 # Edu-champ
-![logo](media/logo.png)
+![logo](media/logo.svg)
 > This is an e-commerce site where you will get different courses with an affordable price 
 
 ***
