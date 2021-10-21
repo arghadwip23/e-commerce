@@ -60,10 +60,9 @@ section .text-container{
   color: #FFFFFF;
   font-size: 1.5rem;
   font-weight: bolder;
-  left: 20px;
+  text-align: center;
 }
 section .text-container h1{
- color: red;
- text-shadow: 2px 2px 4px #020850;
+ color: white;
  font-family: 'Titan One', cursive;
 }
