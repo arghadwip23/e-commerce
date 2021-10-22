@@ -66,8 +66,8 @@ ul li a {
 
 #banner{
   margin-top: 19px;
-  width: 100%;
-  height: 40vh;
+  width: 300px;
+  height: 400px;
   background: url(https://images.pexels.com/photos/5017691/pexels-photo-5017691.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-size: contain;
   background-repeat: no-repeat;
