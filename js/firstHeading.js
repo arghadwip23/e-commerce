@@ -8,7 +8,7 @@ export var animations = ()=>{
       targets: '.ml6 .letter',
       translateY: ["1.1em", 0],
       translateZ: 0,
-      duration: 750,
+      duration: 500,
       delay: (el, i) => 50 * i
     });
 }
