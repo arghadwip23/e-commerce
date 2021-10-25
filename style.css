@@ -63,27 +63,27 @@ ul li a {
   top: 5px;
   right: 5px;
 }
-
-#banner{
-  margin-top: 19px;
-  width: 300px;
-  height: 400px;
-  background: url(https://images.pexels.com/photos/5017691/pexels-photo-5017691.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.ml6 {
   position: relative;
-  z-index: 2;
+  font-weight: 900;
+  font-size: 3.3em;
 }
-#banner::after{
-  content: "";
-  position: absolute;
-  height: 100%;
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+#demo{
   width: 100%;
-  background-image: url(media/splash.jpg);
-  background-size: cover;
-  background-clip: border-box;
-  background-repeat: no-repeat;
-  background-position: center;
-  mix-blend-mode: screen;
+  height: 100vh;
 }
