@@ -4,7 +4,7 @@ import { isScrolledIntoView } from "../js/isVisible.js";
 
 console.log('Hello World!');
 
-
+alert("a small initiative .............");
 
 //select the DOM element
 var buttonToOpenMenubar = document.getElementById("menubar_open");
